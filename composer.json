@@ -23,7 +23,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "PhpDaddy\\Contract\\Multiton\\": "src/",
+            "PhpDaddy\\Contract\\Multiton\\": "src/"
         }
     },
     "autoload-dev": {
