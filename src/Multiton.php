@@ -8,5 +8,5 @@ interface Multiton
      * @param string $key Instance key
      * @return Object
      */
-    public static function getInstance($key);
+    public static function getInstance($key='default');
 }

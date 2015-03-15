@@ -11,7 +11,7 @@ trait MultitonTrait
     /**
      * {@inheritdoc}
      */
-    public static function getInstance($key)
+    public static function getInstance($key='default')
     {
         if (!array_key_exists($key, static::$instances)) {
             static::$instances[$key] = new static();
